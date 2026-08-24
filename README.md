@@ -20,3 +20,37 @@ To run these notebooks yourself, you'll need:
 - **Python 3.9+**
 - **Jupyter Notebook** or **JupyterLab**
 - The following Python libraries:
+
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+scikit-learn
+
+
+### Quick setup
+
+Install everything with a single command:
+```bash
+pip install numpy pandas matplotlib seaborn scipy scikit-learn jupyter
+```
+
+### How to run
+
+1. Clone this repository:
+```bash
+   git clone https://github.com/sadz-1457/ML_LAB.git
+   cd ML_LAB
+```
+2. Launch Jupyter:
+```bash
+   jupyter notebook
+```
+3. Open the `.ipynb` file for the experiment you want to run.
+4. Run all cells from top to bottom (**Cell → Run All**). The plots will be saved automatically into each experiment's `Graphs` folder.
+
+## Notes
+
+- Make sure the dataset file paths inside each notebook match where you've placed the dataset folder on your system.
+- Plots are generated using `matplotlib`/`seaborn` and saved as `.png` files - no manual saving needed.
